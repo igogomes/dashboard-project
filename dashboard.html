@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Tangerino | Dashboard</title>
+      <link rel="shortcut icon" href="images/favicon-tangerino.png" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="css/dashboardtangerino.min.css">
+      <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+      <div class="preloader flex-column justify-content-center align-items-center">
+        <img src="images/icon-logo-tangerino.png" class="img-circle" alt="Icon Tangerino Logo" height="60" width="60">
+      </div>
+      
+      <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button">
+              <i class="fas fa-bars"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+              <i class="far fa-bell"></i>
+              <span class="badge badge-warning navbar-badge">15</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-user-clock mr-2"></i> 4 pontos registrados
+                <span class="float-right text-muted text-sm">15 min</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-users mr-2"></i> 8 novos colaboradores
+                <span class="float-right text-muted text-sm">5 horas</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-chart-pie mr-2"></i> 3 novos relatórios
+                <span class="float-right text-muted text-sm">1 dia</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer">Todas Notificações</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <a href="#" class="brand-link">
+          <img src="images/icon-logo-tangerino.png" alt="Icon Logo Tangerino" class="brand-image img-circle elevation-3" style="opacity: .8">
+          <span class="brand-text font-weight-light"><img src="images/text-logo-tangerino.png" alt="Text Logo Tangerino"></span>
+        </a>
+        <div class="sidebar">
+          <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+              <li class="nav-item menu-open">
+                <a href="#" class="nav-link active">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-chart-pie"></i>
+                  <p>Relatórios</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-users"></i>
+                  <p>Colaboradores</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-ico fas fa-user-clock"></i>
+                  <p>Controles de Ponto</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon far fa-address-card"></i>
+                  <p>Seu Perfil</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-cog"></i>
+                  <p>Configurações</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-sign-out-alt"></i>
+                  <p>Sair</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+
+      <div class="content-wrapper">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0 main-page-title">Dashboard</h1>
+              </div>
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active">Dashboard</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-6">
+                <div class="main-statistics small-box bg-info">
+                  <div class="inner">
+                    <h3>105</h3>
+                    <p>Colaboradores</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="main-statistics small-box bg-success">
+                  <div class="inner">
+                    <h3>95<sup style="font-size: 20px">%</sup></h3>
+                    <p>Presentes</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-user-clock"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="main-statistics small-box bg-warning">
+                  <div class="inner">
+                    <h3>15</h3>
+                    <p>Horas Extras</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-plus-circle"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="main-statistics small-box bg-danger">
+                  <div class="inner">
+                    <h3>7</h3>
+                    <p>Atrasos ou Faltas</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-user-minus"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">Status do Dia</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="mainStatus" style="min-height: 400px; height: 400px; max-height: 400px; max-width: 100%;"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="content-header month-title">
+                  <div class="container-fluid">
+                    <div class="row mb-2">
+                      <div class="col-sm-12">
+                        <h1 class="m-0 main-page-title">Controles Mensais</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">Pontos Registrados</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="statusRegistration" style="min-height: 400px; height: 400px; max-height: 400px; max-width: 100%;"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">Ajustes de Pontos</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="adjustmentRegistration" style="min-height: 400px; height: 400px; max-height: 400px; max-width: 100%;"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">Inconsistências</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="inconsistencyRegistration" style="min-height: 400px; height: 400px; max-height: 400px; max-width: 100%;"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">Dispositivos por Plataforma</h3>
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="devicesRegistration" style="min-height: 400px; height: 400px; max-height: 400px; max-width: 100%;"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+      </div>
+    
+    </div>
+
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/jquery-ui/jquery-ui.min.js"></script>
+    <script>
+      $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/chart.js/Chart.min.js"></script>
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="js/dashboardtangerino.js"></script>
+    <script src="js/pages/dashboard.js"></script>
+
+    <script>
+      $(function () {
+        var donutChartCanvas = $('#mainStatus').get(0).getContext('2d')
+        var donutData        = {
+          labels: [
+              'Sem Presença',
+              'Pontos Abertos',
+              'Em Férias',
+              'Pontos Fechados',
+          ],
+          datasets: [
+            {
+              data: [4,10,3,83],
+              backgroundColor : ['#233863', '#FFFC4B', '#F29F4E', '#FF5F11'],
+            }
+          ]
+        }
+        var donutOptions     = {
+          maintainAspectRatio : false,
+          responsive : true,
+        }
+        new Chart(donutChartCanvas, {
+          type: 'doughnut',
+          data: donutData,
+          options: donutOptions
+        })
+      });
+
+      $(function () {
+        var donutChartCanvas = $('#statusRegistration').get(0).getContext('2d')
+        var donutData        = {
+          labels: [
+              'Aprovados',
+              'Rejeitados',
+              'Pendentes',
+          ],
+          datasets: [
+            {
+              data: [95,3,2],
+              backgroundColor : ['#FF5F11', '#F29F4E', '#FFFC4B'],
+            }
+          ]
+        }
+        var donutOptions     = {
+          maintainAspectRatio : false,
+          responsive : true,
+        }
+        new Chart(donutChartCanvas, {
+          type: 'doughnut',
+          data: donutData,
+          options: donutOptions
+        })
+      })
+
+      $(function () {
+        var donutChartCanvas = $('#adjustmentRegistration').get(0).getContext('2d')
+        var donutData        = {
+          labels: [
+              'Aprovados',
+              'Rejeitados',
+              'Pendentes',
+          ],
+          datasets: [
+            {
+              data: [68,27,5],
+              backgroundColor : ['#FF5F11', '#F29F4E', '#FFFC4B'],
+            }
+          ]
+        }
+        var donutOptions     = {
+          maintainAspectRatio : false,
+          responsive : true,
+        }
+        new Chart(donutChartCanvas, {
+          type: 'doughnut',
+          data: donutData,
+          options: donutOptions
+        })
+      })
+
+      $(function () {
+        var donutChartCanvas = $('#inconsistencyRegistration').get(0).getContext('2d')
+        var donutData        = {
+          labels: [
+              'Resolvidas',
+              'Pendentes',
+          ],
+          datasets: [
+            {
+              data: [92,8],
+              backgroundColor : ['#FF5F11', '#FFFC4B'],
+            }
+          ]
+        }
+        var donutOptions     = {
+          maintainAspectRatio : false,
+          responsive : true,
+        }
+        new Chart(donutChartCanvas, {
+          type: 'doughnut',
+          data: donutData,
+          options: donutOptions
+        })
+      })
+
+      $(function () {
+        var donutChartCanvas = $('#devicesRegistration').get(0).getContext('2d')
+        var donutData        = {
+          labels: [
+              'Windows',
+              'Linux',
+              'MacOS',
+              'iOS',
+              'Android',
+              'Não Autorizados',
+          ],
+          datasets: [
+            {
+              data: [21,14,7,9,42,7],
+              backgroundColor : ['#FF5F11','#F29F4E','#FFFC4B','#233863','#F9CA9C','#6B7C8F'],
+            }
+          ]
+        }
+        var donutOptions     = {
+          maintainAspectRatio : false,
+          responsive : true,
+        }
+        new Chart(donutChartCanvas, {
+          type: 'doughnut',
+          data: donutData,
+          options: donutOptions
+        })
+      })
+    </script>
+
+  </body>
+
+</html>

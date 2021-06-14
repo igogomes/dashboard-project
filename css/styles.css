@@ -1,0 +1,177 @@
+:root {
+    --color-1: #FF5F11;
+    --color-2: #233863;
+    --color-3: #000000bf;
+    --color-4: #FFF;
+    --color-5: #fffc4b;
+    --color-6: #F5F5F5;
+    --color-7: #F29F4E;
+    --font-1: 'Roboto', sans-serif;
+}
+
+.brand-link .brand-image {
+    max-height: 100%;
+    margin-left: .3rem;
+}
+
+body.sidebar-collapse .brand-link .brand-image { 
+    margin-left: 0;
+}
+
+[class*=sidebar-dark-] {
+    background-color: var(--color-1);
+}
+
+.elevation-3 {
+    box-shadow: none !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, 
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: var(--color-2);
+    border-radius: 10px;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, 
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, 
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    color: var(--color-3);
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link, [class*=sidebar-dark-] .sidebar a {
+    color: var(--color-4);
+}
+
+[class*=sidebar-dark] .brand-link {
+    border-bottom: none;
+}
+
+.fa-tachometer-alt:before, .nav.nav-pills.nav-sidebar.flex-column .nav-item .nav-link.active p {
+    color: var(--color-5);
+}
+
+.nav-item .nav-link i.nav-ico.fas.fa-user-clock {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link .fa-bars:before {
+    color: var(--color-3);
+}
+
+.navbar .navbar-nav.ml-auto .nav-item.dropdown .nav-link .badge.badge-warning.navbar-badge {
+    color: var(--color-3);
+    background: var(--color-5);
+    border-radius: 50%;
+    padding: 4px;
+    top: 3px;
+}
+
+.navbar-nav .nav-item.dropdown .nav-link .fa-bell:before {
+    color: var(--color-3);
+}
+
+.navbar-nav .nav-item .dropdown-menu.dropdown-menu-lg.dropdown-menu-right.show, 
+.navbar-nav .nav-item .dropdown-menu .dropdown-item, .navbar-nav .dropdown-menu .dropdown-item .fa-envelope:before,
+.navbar-nav .nav-item .dropdown-item .float-right.text-muted.text-sm,
+.navbar-nav .nav-item .dropdown-menu .dropdown-item .dropdown-item.dropdown-footer {
+    color: var(--color-3) !important;
+    font-size: 16px !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item.dropdown-header {
+    background-color: var(--color-4);
+}
+
+.navbar-nav .nav-item .dropdown-item:focus, .navbar-nav .nav-item .dropdown-item:hover {
+    background-color: var(--color-6);
+}
+
+.navbar-nav .nav-item .dropdown-item:first-child:focus, .navbar-nav .nav-item .dropdown-item:first-child:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navbar-nav .nav-item .dropdown-item:last-child:focus, .navbar-nav .nav-item .dropdown-item:last-child:hover {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu-lg {
+    min-width: 310px;
+    border-radius: 10px;
+}
+
+.nav-sidebar .nav-item .nav-link {
+    font-size: 16px;
+}
+
+.m-0.main-page-title {
+    color: var(--color-3);
+}
+
+.content-wrapper {
+    background-color: var(--color-6);
+}
+
+.breadcrumb .breadcrumb-item a, .breadcrumb-item+.breadcrumb-item.active {
+    color: var(--color-3);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--color-3);
+}
+
+.main-statistics {
+    border-radius: 10px;
+    padding-left: 7px;
+}
+
+.main-statistics.small-box.bg-info {
+    background-color: var(--color-1) !important;
+}
+
+.main-statistics.small-box.bg-success {
+    background-color: var(--color-2) !important;
+}
+
+.main-statistics.small-box.bg-warning {
+    background-color: var(--color-5) !important;
+}
+
+.main-statistics.small-box.bg-warning h3, .main-statistics.small-box.bg-warning p {
+    color: var(--color-3);
+}
+
+.main-statistics.small-box.bg-danger {
+    background-color: var(--color-7) !important;
+}
+
+.card.card-primary {
+    border-radius: 10px;
+}
+
+.card.card-primary .card-header .card-title,
+.card.card-primary .card-header .card-tools button.btn.btn-tool .fa-minus:before,
+.card.card-primary .card-header .card-tools button.btn.btn-tool .fa-plus:before {
+    color: var(--color-3);
+}
+
+.card.card-primary .card-header {
+    background-color: var(--color-4) !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card.card-primary.collapsed-card .card-header {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.content-header.month-title, .content-header.month-title .container-fluid {
+    padding-left: 0;
+}
